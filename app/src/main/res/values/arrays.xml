@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="valoresArray">
+        <item>El1</item>
+        <item>El2</item>
+        <item>El3</item>
+        <item>El4</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hector.apptablet" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Adapter.MyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Adapter.RegisterActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Adapter.PruebaAction"
+            android:label="@string/title_activity_prueba_action" >
+        </activity>
+        <activity
+            android:name=".Adapter.visorImagen"
+            android:label="@string/title_activity_visor_imagen" >
+        </activity>
+        <activity
+            android:name=".Adapter.ListaCanciones"
+            android:label="@string/title_activity_lista_canciones" >
+        </activity>
+        <activity
+            android:name=".Adapter.ActivityFragments"
+            android:label="@string/title_activity_activity_fragments" >
+        </activity>
+        <activity
+            android:name=".Adapter.ActivityListaCacionesLetra"
+            android:label="@string/title_activity_fragment_principal" >
+
+        </activity>
+        <activity
+            android:name=".Adapter.formulario_persistencia"
+            android:label="@string/title_activity_formulario_persistencia" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

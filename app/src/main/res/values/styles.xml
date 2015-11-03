@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="style_boton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowDx">1.2</item>
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textColor">#ffff984c</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#ff7fff57</item>
+        <item name="android:capitalize">characters</item>
+    </style>
+</resources>
